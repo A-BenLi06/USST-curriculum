@@ -3,7 +3,7 @@
 // @namespace    https://jwgl.usst.edu.cn/
 // @version      1.0.0
 // @description  在个人课表查询页面解析课程、周次、节次、教师与地点，并导出为 iCalendar (.ics)。
-// @author       Codex
+// @author       BenLi06
 // @match        https://jwgl.usst.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html*
 // @grant        none
 // @run-at       document-idle
@@ -343,4 +343,3 @@
   installButton();
   new MutationObserver(installButton).observe(document.body, { childList: true, subtree: true });
 })();
-
